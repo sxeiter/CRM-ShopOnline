@@ -1,0 +1,128 @@
+.wrapper {
+  position: relative;
+  width: 792px;
+  min-height: 923px;
+  background: #f2f0f9;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.header__title {
+  position: absolute;
+  width: 258px;
+  height: 29px;
+  left: 106px;
+  top: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6e6893;
+}
+
+.close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 742px;
+  top: 20px;
+}
+
+.modal {
+  position: absolute;
+  width: 580px;
+  min-height: 620px;
+  left: 106px;
+  top: 104px;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.modal__label {
+  padding-left: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6e6893;
+}
+
+.modal__input {
+  width: 524px;
+  min-height: 40px;
+  margin: 16px 28px 16px 28px;
+  border-radius: 6px;
+  background-color: #f4f2ff;
+  border: none;
+}
+
+.modal__checkbox {
+  width: 40px;
+  height: 40px;
+  background: #f4f2ff;
+  border-radius: 6px;
+  margin-left: 28px;
+  border: none;
+}
+
+.modal__yes {
+  width: 40px;
+  height: 40px;
+  left: 134px;
+  top: 368px;
+  border-radius: 6px;
+}
+
+.modal__checkbox_active {
+  min-height: 40px;
+  width: 474px;
+  border-radius: 6px;
+  background-color: #f4f2ff;
+  display: inline-block;
+  border: none;
+  margin-left: 78px;
+}
+
+.modal__subscribe {
+  min-height: 112px;
+  resize: none;
+}
+
+.modal__button {
+  position: absolute;
+  width: 200px;
+  height: 39px;
+  background: #6d5bd0;
+  border-radius: 6px;
+  position: absolute;
+  left: 444px;
+  top: 856px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.ok {
+  position: relative;
+}
+
+.ok::before {
+  content: "";
+  position: absolute;
+  background-image: url(/img/Rectangle\ 48.svg);
+  width: 40px;
+  height: 40px;
+  left: 28px;
+  top: 18px;
+}
