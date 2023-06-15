@@ -10,97 +10,82 @@
   <body>
     <div class="wrapper">
       <h2 class="header__title">Добавить товар</h2>
-      <figure>
-        <img class="close" src="/img/close.svg" alt="закрыть" />
-      </figure>
+
       <form
         class="form"
         id="my-form"
         action="https://jsonplaceholder.typicode.com/posts"
         method="POST"
       >
+        <button type="reset">
+          <figure>
+            <img class="close" src="/img/close.svg" alt="закрыть" />
+          </figure>
+        </button>
         <fieldset class="modal">
-          <label class="modal__label" for="my-name"
-            >Наименование
-            <input
-              type="text"
-              name="name"
-              id="my-name"
-              class="modal__name modal__input"
-            />
-          </label>
-          <br />
-          <label class="modal__label" for="my-category"
-            >Категория
-            <input
-              type="text"
-              name="category"
-              id="my-category"
-              class="modal__category modal__input"
-            />
-          </label>
-          <br />
-          <label class="modal__label" for="my-money"
-            >Единицы измерения
-            <input
-              type="text"
-              name="money"
-              id="my-money"
-              class="modal__money modal__input"
-            />
-          </label>
-          <br />
-          <!--<figure>
-            <img src="/img/Rectangle 48.svg" alt="" class="modal__yes" />
-          </figure>-->
-          <div class="ok"></div>
-          <label class="modal__label" for="my-discont"
-            >Дисконт
-            <input
-              type="text"
-              name="discont"
-              id="my-discont"
-              class="modal__checkbox_active"
-            />
-          </label>
-          <br />
-          <label class="modal__label" for="my-subs"
-            >Описание
-            <textarea
-              name="subs"
-              id="my-subs"
-              cols="30"
-              rows="3"
-              class="modal__subscribe modal__input"
-            ></textarea>
-          </label>
-          <br />
-          <label class="modal__label" for="my-count"
-            >Количество
-            <input
-              type="number"
-              name="count"
-              id="my-count"
-              class="modal__count modal__input"
-            />
-          </label>
-          <br />
+          <label class="modal__label" for="my-name">Наименование </label>
+          <input
+            type="text"
+            name="name"
+            id="my-name"
+            class="modal__name modal__input"
+          />
 
-          <label class="modal__label" for="my-price"
-            >Цена
-            <input
-              type="number"
-              name="price"
-              id="my-price"
-              class="modal__price modal__input"
-            />
-          </label>
-          <br />
+          <label class="modal__label" for="my-category">Категория </label>
+          <input
+            type="text"
+            name="category"
+            id="my-category"
+            class="modal__category modal__input"
+          />
+
+          <label class="modal__label" for="my-money">Единицы измерения </label>
+          <input
+            type="text"
+            name="money"
+            id="my-money"
+            class="modal__money modal__input"
+          />
+
+          <label class="modal__label checkbox" for="my-discont">Дисконт </label>
+          <input type="checkbox" class="checkbox__input" />
+
+          <input
+            type="text"
+            name="discont"
+            id="my-discont"
+            class="modal__checkbox_active modal__input"
+          />
+
+          <label class="modal__label" for="my-subs">Описание </label>
+          <textarea
+            name="subs"
+            id="my-subs"
+            cols="30"
+            rows="3"
+            class="modal__subscribe modal__input"
+          ></textarea>
+
+          <label class="modal__label" for="my-count">Количество </label>
+          <input
+            type="number"
+            name="count"
+            id="my-count"
+            class="modal__count modal__input"
+          />
+
+          <label class="modal__label" for="my-price">Цена </label>
+          <input
+            type="number"
+            name="price"
+            id="my-price"
+            class="modal__price modal__input"
+          />
         </fieldset>
+        <button type="submit" class="modal__button modal__input">
+          Добавить товар
+        </button>
       </form>
-      <button type="submit" class="modal__button modal__input">
-        Добавить товар
-      </button>
     </div>
   </body>
 </html>
